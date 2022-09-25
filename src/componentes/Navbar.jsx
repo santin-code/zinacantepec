@@ -4,7 +4,7 @@ import { links } from '../data'
 import { FaBars } from 'react-icons/fa'
 import { MdOutlineClose } from 'react-icons/md'
 import './navbar.css'
-import Logo from '../images/a02539775843bd06cae6190613bdabb66003730a.png'
+import Logo1 from '../images/emilivideos.png'
 
 const Navbar = () => {
 
@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav>
       <div className="container nav__container">
         <Link to='/' className='logo' onClick={()=> setShowMenu(false)} >
-          <img src={Logo} alt='logo free fire' />
+          <img src={Logo1} alt='logo free fire' />
         </Link>
         <ul className={`nav__links ${showMenu ? 'show__nav' : 'hide__nav'} `}>
           {

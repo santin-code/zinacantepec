@@ -3,21 +3,21 @@ import FreeFire2 from './images/freefire2.jpg'
 import FreeFire3 from './images/freefire3.png'
 import FreeFire4 from './images/freefire4.png'
 
-
 export const links = [
   {
     name: "Home",
     path: "/"
-  },{
-    name: "Proximos Torneos",
-    path: "/proximos-torneos"
-  },{
-    name: "Comprar Diamantes",
-    path: "/comprar-diamantes"
-  },{
-    name: "Participantes",
-    path: "/participantes"
-  },
+  }
+  // ,{
+  //   name: "Proximos Torneos",
+  //   path: "/proximos-torneos"
+  // },{
+  //   name: "Comprar Diamantes",
+  //   path: "/comprar-diamantes"
+  // },{
+  //   name: "Participantes",
+  //   path: "/participantes"
+  // },
 ];
 
 
@@ -36,4 +36,7 @@ export const freeSlide = [
     image: FreeFire4
   }
 ];
+
+
+
 
